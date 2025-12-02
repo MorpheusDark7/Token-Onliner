@@ -1,0 +1,24 @@
+{
+  "name": "discord-token-onliner-js",
+  "version": "1.0.0",
+  "description": "Makes multiple Discord accounts go online by using their OAuth token",
+  "main": "gateway_presence.js",
+  "scripts": {
+    "start": "node gateway_presence.js"
+  },
+  "keywords": [
+    "discord",
+    "token",
+    "onliner",
+    "presence"
+  ],
+  "author": "soulbinder9018",
+  "license": "GPL-3.0",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "ws": "^8.14.2"
+  }
+}
